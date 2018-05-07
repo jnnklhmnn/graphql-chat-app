@@ -1,9 +1,9 @@
 # Graphql-chat-app
 
-To Start:
-1. cd /frontend
-2. npm i
-3. npm install
+To start:
+1. cd frontend
+2. npm install
+3. npm start
 
-To Test:
+To test:
 npm test
