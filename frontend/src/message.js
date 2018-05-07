@@ -22,7 +22,6 @@ export class Message extends Component {
    *
    * @param String date
    * @returns Markup including formated Date String
-   * @example
    *
    */
 
