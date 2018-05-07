@@ -1,0 +1,10 @@
+.delete-button {
+  background-color: #a29a9a;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+}
+
+.delete-button:focus {
+  outline: none
+}

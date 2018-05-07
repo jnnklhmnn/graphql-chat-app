@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageInput renders with data correctly 1`] = `
+<div
+  className="message-input"
+>
+  <div
+    className="input-wrapper"
+  >
+    <textarea
+      className="message-input-field"
+      onChange={[Function]}
+      placeholder="Enter your message here"
+      type="text"
+      value=""
+    />
+    <button
+      className="input-button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Send
+    </button>
+  </div>
+</div>
+`;

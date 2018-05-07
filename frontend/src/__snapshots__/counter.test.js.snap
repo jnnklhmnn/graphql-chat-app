@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should render without crashing 1`] = `
+<div
+  className="counter"
+>
+  <h2>
+    3 items
+  </h2>
+</div>
+`;

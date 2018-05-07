@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-boost": "^0.1.5",
+    "apollo-cache-inmemory": "^1.2.0",
+    "apollo-client": "^2.3.0",
+    "apollo-link-http": "^1.5.4",
+    "enzyme-to-json": "^3.3.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "react": "^16.3.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-apollo": "^2.1.4",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.3.2"
+  },
+  "scripts": {
+    "start": " REACT_APP_GRAPHQL_URI=https://api.graph.cool/simple/v1/cjgrrk8to14n20197eg7gprgl react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1"
+  }
+}

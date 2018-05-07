@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders in Loaded State Correctly 1`] = `
+<CSSTransitionGroup
+  transitionAppear={false}
+  transitionEnter={true}
+  transitionEnterTimeout={1000}
+  transitionLeave={false}
+  transitionName="initial-load"
+>
+  <div
+    key="notloaded"
+  />
+</CSSTransitionGroup>
+`;
+
+exports[`App renders in Loading State Correctly 1`] = `
+<CSSTransitionGroup
+  transitionAppear={false}
+  transitionEnter={true}
+  transitionEnterTimeout={1000}
+  transitionLeave={false}
+  transitionName="initial-load"
+>
+  <div
+    key="notloaded"
+  />
+</CSSTransitionGroup>
+`;

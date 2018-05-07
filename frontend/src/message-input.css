@@ -1,0 +1,34 @@
+.message-input {
+  width: 100%;
+  background-color:#a29a9a;
+  border-radius: 0 0 4px 4px;
+}
+
+.input-wrapper {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.message-input-field {
+  width: 60%;
+  resize: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.input-button {
+  width: 28%;
+  margin-left: 20px;
+  height: 38px;
+  font-size: 15px;
+  box-shadow: none;
+  background-color:#46b546;
+  color: #ffffff;
+  border: none;
+}
+
+.input-button:disabled {
+  background-color: #94a59d;
+}
+

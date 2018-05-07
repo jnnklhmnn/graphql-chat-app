@@ -1,0 +1,18 @@
+body {
+  background-color:#eaeaec;
+  font-size: 16px;
+  border: 10px solid red;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+.counter h2,
+.message-copy
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+

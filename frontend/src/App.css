@@ -1,0 +1,25 @@
+.App {
+  max-width: 300px;
+  max-height: 504px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border: 1px solid #8a7f7f;
+  border-radius: 5px;
+  position: relative;
+}
+
+.message-section {
+  height: 400px;
+  overflow-y: scroll;
+  background-color: #d4d0bc;
+}
+
+.App.initial-load-enter {
+  transform: scale(0);
+  will-change: transform;
+}
+
+.App.initial-load-enter-active {
+  transform: scale(1);
+  transition: transform 1s ease-in;
+}
