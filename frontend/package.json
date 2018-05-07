@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": " REACT_APP_GRAPHQL_URI=https://api.graph.cool/simple/v1/cjgrrk8to14n20197eg7gprgl react-scripts start",
-    "build": "react-scripts build",
+    "build": "REACT_APP_GRAPHQL_URI=https://api.graph.cool/simple/v1/cjgrrk8to14n20197eg7gprgl react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

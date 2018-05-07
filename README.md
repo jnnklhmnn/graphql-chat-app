@@ -7,3 +7,6 @@ To start:
 
 To test:
 npm test
+
+To build: 
+npm run build
